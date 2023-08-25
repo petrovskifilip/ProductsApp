@@ -15,10 +15,10 @@ jobs:
 
       - name: Setup Java version
         uses: actions/setup-java@v3
-          with:
-            distribution: 'corretto'
-            java-version: '17'
-            cache: 'maven'
+        with:
+          distribution: 'corretto'
+          java-version: '17'
+          cache: 'maven'
 
       - name: Build with Maven
           run: mvn -B package --file pom.xml
