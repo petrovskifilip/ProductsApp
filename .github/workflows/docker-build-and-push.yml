@@ -34,4 +34,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: petrovskifilip/kii-products-app-01:latest
+          tags: petrovskifilip/kiii-products-app-01:latest
