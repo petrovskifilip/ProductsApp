@@ -46,5 +46,3 @@ spec:
                 configMapKeyRef:
                   name: mariadb-config-map
                   key: mariadb-user-username
-      imagePullSecrets:
-        - name: regcred
