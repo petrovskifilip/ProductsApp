@@ -13,4 +13,3 @@ spec:
       name: http
       port: 8082
       targetPort: 8080
-      nodePort: 30000
