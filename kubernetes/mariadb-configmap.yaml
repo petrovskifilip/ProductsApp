@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mariadb-config-map
+data:
+  mariadb-server: demo-app-mariadb
+  mariadb-database-name: demoDb
+  mariadb-user-username: myUser
